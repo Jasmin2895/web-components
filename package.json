@@ -1,0 +1,35 @@
+{
+  "name": "web-components",
+  "version": "1.0.0",
+  "description": "To test the web components in local run the following command: ``` python -m http.server ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --content-base dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jasmin2895/web-components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jasmin2895/web-components/issues"
+  },
+  "homepage": "https://github.com/Jasmin2895/web-components#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "html-webpack-plugin": "^4.3.0",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.11.1"
+  }
+}
